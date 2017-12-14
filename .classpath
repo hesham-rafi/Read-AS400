@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Tools/jars_librarys/jtopen_9_3/lib/java8/jt400.jar"/>
+	<classpathentry kind="lib" path="C:/Tools/jars_librarys/opencsv/opencsv-3.9.jar"/>
+	<classpathentry kind="lib" path="C:/Tools/jars_librarys/commons-lang3-3.5/commons-lang3-3.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

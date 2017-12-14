@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<tables>
+	<table id="1">
+		<columns>CHDRNO,CLNTNUM,CLTRELN,DRVEXP,DTEATT,DTEEFF,DTETER,OCCPCD,RSKNO,TRANNO,YEAR,ZSNO</columns>
+		<database>AMYDTA</database>
+		<tablename>ANDRPF</tablename>
+		<csvfilename>andrpf.csv</csvfilename>
+	</table>
+	<table id="2">
+		<columns>CCDATE,CHDRNUM,CNTTYPE,COWNNUM,CRDATE,CURRFROM,CURRTO,NOFRISKS,OCCDATE,PAYRNUM,RNLNOTS,RNLTYPE,TRANNO</columns>
+		<database>AMYDTA</database>
+		<tablename>CHDRPF</tablename>
+		<csvfilename>chdrpf.csv</csvfilename>
+	</table>
+	<table id="3">
+		<columns>BALO,CHDRNUM,CLAIM,CLAMEFF,CLMDSC,CLNTNUM,CLSTAT,CNTTYPE,DATOCC,DATREP,PAID,RSKNO,RSKTYP,TRANNO</columns>
+		<database>AMYDTA</database>
+		<tablename>CLAMPF</tablename>
+		<csvfilename>clampf.csv</csvfilename>
+	</table>
+	<table id="4">
+		<columns>ADDRTYPE,CLNTNUM,CLTADDR01,CLTADDR02,CLTADDR03,CLTADDR04,CLTADDR05,CLTDOB,CLTPCODE,CLTPHONE01,CLTPHONE02,CLTSEX,CLTSTAT,CLTTYPE,CTRYCODE,LGIVNAME,LSURNAME,MARRYD,NATLTY,OCCPCODE,SECUITYNO</columns>
+		<database>AMYDTA</database>
+		<tablename>CLNTPF</tablename>
+		<csvfilename>clntpf.csv</csvfilename>
+	</table>
+	<table id="5">
+		<columns>CLAIM,DESC01,DESC02</columns>
+		<database>AMYDTA</database>
+		<tablename>CLXDPF</tablename>
+		<csvfilename>clxdpf.csv</csvfilename>
+	</table>
+	<table id="6">
+		<columns>AGREEM,CASTYM,CHASSI,CLAIM,CLTRELDSC,COVER,CTRYCODE,DRIVER,DRVEXP,DRVNAM,ENGINE,LSTYPM,MMCODE,NCBAFE,OCCPCD,OCCUPN,PLAACC,PWSHPIND,RECOVR,REGNO,REMARK,REPAIRER,SAGE,THEFTSIND,VEHCLS,YEAR,YRMANF,ZMAKE,ZPOSTA,ZREMARKS01,ZREMARKS02,ZREMARKS03,ZRENT,ZVHBOD</columns>
+		<database>AMYDTA</database>
+		<tablename>CPMCPF</tablename>
+		<csvfilename>cpmcpf.csv</csvfilename>
+	</table>
+	<table id="7">
+		<columns>CASTYM,CLAIM,COVER,DRIVER,DRVNAM,LSTYPM,NCBAFE,NCBL,OCCPCD,PLAACC,REGNO,REMARK,REPAIR,REPAIRDTE,REPAIRER,RSKTYP,VEHCLS,ZREMARKS01,ZREMARKS02,ZREMARKS03</columns>
+		<database>AMYDTA</database>
+		<tablename>CPMTPF</tablename>
+		<csvfilename>cpmtpf.csv</csvfilename>
+	</table>
+	<table id="8">
+		<columns>BALO,CHGBAL,CLAIM,PAYMNT,PRCL,REVBAL,RSCD,TRANNO</columns>
+		<database>AMYDTA</database>
+		<tablename>CTRNPF</tablename>
+		<csvfilename>ctrnpf.csv</csvfilename>
+	</table>
+	<table id="9">
+		<columns>CHDRNO,CLNTNAME,CLNTNUM,CLTDOBX,CLTSEX,DTEEFF,DTETER,EXAMT,OCCPCD,RSKNO,SECUITYNO,TRANNO,YEAR,ZDEMERIT,ZDRIVER,ZRESTDRV,ZSNO</columns>
+		<database>AMYDTA</database>
+		<tablename>NDRVPF</tablename>
+		<csvfilename>ndrvpf.csv</csvfilename>
+	</table>
+	<table id="10">
+		<columns>CHASSI,CHDRNO,CNTTYP,COVER,DTEATT,DTEEFF,DTETER,ENGINE,EXAMT,MMCODE,NCBAMT,OCCPCD,OCCUPN,PREM,PWSHPIND,REGNO,RSKNO,RSKTYP,SEXCPE,SICURR,TOTSI,TOTSIL,TRANNO,USEFOR,VEHCLS,VHBODY,VHMAKE,YRMANF,ZCOLOUR,ZVHBOD</columns>
+		<database>AMYDTA</database>
+		<tablename>RCMTPF</tablename>
+		<csvfilename>rcmtpf.csv</csvfilename>
+	</table>
+	<table id="11">
+		<columns>CHASSI,CHDRNO,CNTTYP,COVER,DTEATT,DTEEFF,DTETER,ENGINE,GARAGE,GENDER,MMCODE,NCBAMT,NOSEAT,OCCUPN,RATFLG,REGNO,RSKNO,RSKTYP,SICURR,TOTSI,TOTSIL,TRANNO,USEFOR,VALID_FLAG,VEHCLS,VEHSI,VHMAKE,YRMANF,ZCOLOUR,ZDTEPUR,ZEXAMT,ZPURVAL,ZVHBOD</columns>
+		<database>AMYDTA</database>
+		<tablename>RMCVPF</tablename>
+		<csvfilename>rmcvpf.csv</csvfilename>
+	</table>
+	<table id="12">
+		<columns>CHASSI,CHDRNO,CNTTYP,COVER,DTEATT,DTEEFF,DTETER,ENGINE,GARAGE,GENDER,MMCODE,NCBAMT,NOSEAT,OCCUPN,REGNO,RSKNO,RSKTYP,SICURR,TOTSI,TOTSIL,TRANNO,USEFOR,VEHCLS,VHMAKE,YRMANF,ZCOLOUR,ZEXAMT,ZEXTYPE,ZVHBOD</columns>
+		<database>AMYDTA</database>
+		<tablename>RMPVPF</tablename>
+		<csvfilename>rmpvpf.csv</csvfilename>
+	</table>
+	<table id="13">
+		<columns>CHASSI,CHDRNO,CNTTYP,COVER,DTEATT,DTEEFF,DTETER,ENGINE,MMCODE,OCCUPN,REGNO,RSKNO,RSKTYP,TOTSI,TOTSIL,TRANNO,VEHCLS,YRMANF,ZMAKE,ZMAKECD,ZMODEL,ZVHBOD</columns>
+		<database>AMYDTA</database>
+		<tablename>RPMCPF</tablename>
+		<csvfilename>rpmcpf.csv</csvfilename>
+	</table>
+</tables>
